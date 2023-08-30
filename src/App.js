@@ -12,8 +12,6 @@ function App() {
   };
   const createJSON=JSON.stringify(obj);
   console.log(createJSON);
-  // const readJSON=JSON.parse("./obj1.json");
-  // console.log(readJSON);
   return (
     <div className="App">
       <Box 
